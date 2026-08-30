@@ -1,0 +1,28 @@
+export enum RoomMode {
+  SINGLE_MANAGER = 'SINGLE_MANAGER',
+  COLLABORATIVE = 'COLLABORATIVE'
+}
+
+export enum MemberRole {
+  MANAGER = 'MANAGER',
+  DELEGATED_EDITOR = 'DELEGATED_EDITOR',
+  MEMBER = 'MEMBER'
+}
+
+export enum PaymentMethod {
+  CASH = 'CASH',
+  BKASH = 'BKASH',
+  NAGAD = 'NAGAD',
+  ROCKET = 'ROCKET',
+  BANK = 'BANK'
+}
+
+export enum UtilityCategory {
+  ELECTRICITY = 'ELECTRICITY',
+  GAS = 'GAS',
+  WATER = 'WATER',
+  INTERNET = 'INTERNET',
+  COOK_MAID_SALARY = 'COOK_MAID_SALARY',
+  WASTE_MANAGEMENT = 'WASTE_MANAGEMENT',
+  OTHER = 'OTHER'
+}

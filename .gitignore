@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Expo & Mobile builds
+.expo/
+**/dist/
+**/web-build/
+**/expo-env.d.ts
+**/.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Build outputs
+/dist
+/build
+**/dist/
+**/build/
+*.tsbuildinfo
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.metro-health-check*
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Temporary & Scratch files
+/scratch/
+.system_generated/
+
+
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
